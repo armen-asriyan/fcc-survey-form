@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Technology and Gadget Preferences Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main>
+        <section class="title-container">
+            <!-- Page Title -->
+            <h1 id="title">Technology and Gadget Preferences Survey Form</h1>
+
+            <!-- Description -->
+            <p id="description"><em>A short survey on your tech preferences and habits: share your insights into the
+                    digital
+                    world!</em></p>
+        </section>
+        <div class="survey-container">
+            <!-- Survey Form -->
+            <form id="survey-form">
+                <fieldset>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Please enter your name" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Please enter your Email" required>
+                    <label for="number">Age (optional)</label>
+                    <input type="number" min="13" max="120" id="number" placeholder="Please enter your age">
+                  </fieldset>
+
+                <fieldset>
+                    <!-- Tech Proficiency Dropdown -->
+                    <label for="dropdown">Which option best describes your current tech proficiency level?</label>
+                    <select id="dropdown" name="dropdown">
+                        <option value="">Select your level</option>
+                        <option value="1">Familiar</option>
+                        <option value="2">Somewhat Familiar</option>
+                        <option value="3">Intermediate</option>
+                        <option value="4">Advanced</option>
+                        <option value="5">Expert</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <!-- Tech Skills Acquisition -->
+                    <legend>How did you acquire your tech skills?</legend>
+                    <label for="self-taught"><input type="radio" name="techskill" value="self-taught" id="self-taught"
+                            class="inline">Self-Taught</label>
+                    <label for="uni-college"><input type="radio" name="techskill" value="uni-college" id="uni-college"
+                            class="inline">University/College</label>
+                    <label for="radio-other"><input type="radio" name="techskill" value="radio-other" id="radio-other"
+                            class="inline">Other</label>
+                </fieldset>
+
+                <fieldset>
+                    <!-- Tech Interests Checkboxes -->
+                    <legend>Select tech topics you're interested in:</legend>
+                    <label><input type="checkbox" value="coding" class="input-checkbox">Coding</label>
+                    <label><input type="checkbox" value="webdev" class="input-checkbox">Website Development</label>
+                    <label><input type="checkbox" value="mobile-apps" class="input-checkbox">Mobile Apps</label>
+                    <label><input type="checkbox" value="cybersecurity" class="input-checkbox">Cybersecurity</label>
+                    <label><input type="checkbox" value="data-analysis" class="input-checkbox">Data Analysis</label>
+                    <label><input type="checkbox" value="other" class="input-checkbox">Other</label>
+                </fieldset>
+
+                <fieldset>
+                    <!-- Tech Journey Textarea -->
+                    <legend>Share your tech journey: </legend>
+                    <textarea id="tech-journey" rows="20" cols="40" placeholder="Enter your text here..."></textarea>
+                </fieldset>
+
+                <!-- Submission Button -->
+                <input type="submit" value="Submit" id="submit">
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>

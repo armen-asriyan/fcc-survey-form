@@ -1,0 +1,89 @@
+body {
+    padding: 0;
+    background-image: linear-gradient(rgb(0 0 0 / 50%), rgb(0 0 0 / 50%)), url("https://img.freepik.com/free-vector/background-realistic-abstract-technology-particle_23-2148431735.jpg");
+    background-size: cover;
+    font-family: Verdana, sans-serif;
+    color: #e5e5e5;
+    box-sizing: border-box;
+    font-size: 1.1rem;
+}
+
+
+.survey-container {
+    background-color: rgb(27 27 50 / 80%);
+    width: 55%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+h1,
+p {
+    margin: 1em auto;
+    text-align: center;
+}
+
+
+form {
+    width: 90%;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 2px solid #2A2A40;
+}
+
+fieldset:nth-child(2) {
+    margin-bottom: 20px;
+}
+
+fieldset:last-of-type {
+    border: none;
+}
+
+label,
+legend,
+textarea {
+    display: block;
+    margin: 0.5rem;
+    font-size: 1.2rem;
+}
+
+input,
+textarea,
+select {
+    margin: 10px 0 0;
+    width: 100%;
+    min-height: 2em;
+    min-width: 2em;
+    resize: vertical;
+}
+
+
+.inline,
+.input-checkbox {
+    width: unset;
+    vertical-align: middle;
+    margin: 0 1em 0 0;
+}
+
+input[type="submit"] {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.inline-label {
+    display: inline;
+  }
